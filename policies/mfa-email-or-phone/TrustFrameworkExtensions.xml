@@ -53,14 +53,14 @@
       <TechnicalProfiles>
         <TechnicalProfile Id="login-NonInteractive">
           <Metadata>
-            <Item Key="client_id">a620b2dd-f55f-44bf-b6de-50689224c47f</Item>
+            <Item Key="client_id">0a107e4b-ef19-472a-80b5-7e6f4d322037</Item>
             <!-- Native App -->
-            <Item Key="IdTokenAudience">58734a70-edde-477e-b758-8fa132745e12</Item>
+            <Item Key="IdTokenAudience">ce84d95d-6a92-4f2f-80be-9546a97f6c6f</Item>
             <!-- Web Api -->
           </Metadata>
           <InputClaims>
-            <InputClaim ClaimTypeReferenceId="client_id" DefaultValue="a620b2dd-f55f-44bf-b6de-50689224c47f" />
-            <InputClaim ClaimTypeReferenceId="resource_id" PartnerClaimType="resource" DefaultValue="58734a70-edde-477e-b758-8fa132745e12" />
+            <InputClaim ClaimTypeReferenceId="client_id" DefaultValue="0a107e4b-ef19-472a-80b5-7e6f4d322037" />
+            <InputClaim ClaimTypeReferenceId="resource_id" PartnerClaimType="resource" DefaultValue="ce84d95d-6a92-4f2f-80be-9546a97f6c6f" />
           </InputClaims>
         </TechnicalProfile>
       </TechnicalProfiles>

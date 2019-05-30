@@ -528,8 +528,8 @@
           <DisplayName>Azure Active Directory</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.AzureActiveDirectoryProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
 					<Metadata>
-						<Item Key="ApplicationObjectId">d79fe583-1422-4b59-94f7-22b85d54ebc1</Item>
-						<Item Key="ClientId">74467a80-b261-48fc-baa4-2f7b7f335d4c</Item>
+						<Item Key="ApplicationObjectId">6b2743c4-bf39-49cc-bcb3-52a56008fb34</Item>
+						<Item Key="ClientId">2e106eeb-c897-4402-beaa-3d8b2fec779a</Item>
 					</Metadata>
           <CryptographicKeys>
             <Key Id="issuer_secret" StorageReferenceId="B2C_1A_TokenSigningKeyContainer" />
@@ -916,7 +916,7 @@
           </CryptographicKeys>
           <IncludeInSso>false</IncludeInSso>
           <OutputClaims>
-            <OutputClaim ClaimTypeReferenceId="signInName" PartnerClaimType="Verified.Email" Required="true" />
+            <OutputClaim ClaimTypeReferenceId="email" PartnerClaimType="Verified.Email" Required="true" />
             <OutputClaim ClaimTypeReferenceId="objectId" />
             <OutputClaim ClaimTypeReferenceId="userPrincipalName" />
             <OutputClaim ClaimTypeReferenceId="authenticationSource" />
