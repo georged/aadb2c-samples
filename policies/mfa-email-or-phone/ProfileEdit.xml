@@ -5,12 +5,12 @@
   xmlns="http://schemas.microsoft.com/online/cpim/schemas/2013/06"
   PolicySchemaVersion="0.3.0.0"
   TenantId="evolvsupertest.onmicrosoft.com"
-  PolicyId="B2C_1A_MFA_phone_or_email_ProfileEdit"
-  PublicPolicyUri="http://evolvsupertest.onmicrosoft.com/B2C_1A_MFA_phone_or_email_ProfileEdit">
+  PolicyId="B2C_1A_MFA_phone_or_app_ProfileEdit"
+  PublicPolicyUri="http://evolvsupertest.onmicrosoft.com/B2C_1A_MFA_phone_or_app_ProfileEdit">
 
   <BasePolicy>
     <TenantId>evolvsupertest.onmicrosoft.com</TenantId>
-    <PolicyId>B2C_1A_MFA_phone_or_email_TrustFrameworkExtensions</PolicyId>
+    <PolicyId>B2C_1A_MFA_phone_or_app_TrustFrameworkExtensions</PolicyId>
   </BasePolicy>
 
   <RelyingParty>

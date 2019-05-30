@@ -16,7 +16,7 @@
     <ClaimsSchema>
       <!-- Demo: The app code user provided-->
       <ClaimType Id="strongAuthenticationAppCode">
-        <DisplayName>3. Enter the verification code</DisplayName>
+        <DisplayName>Enter the verification code</DisplayName>
         <DataType>string</DataType>
         <UserInputType>TextBox</UserInputType>
       </ClaimType>
